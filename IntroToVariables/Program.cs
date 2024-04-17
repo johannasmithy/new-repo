@@ -38,7 +38,7 @@ int num3 = 10;
 num3 = num3 * 3; //this will permanently affect the value of the variable - not just a mathematical equation giving us a result
 System.Console.WriteLine(num3);
 
-//Autmented Assignment Operator
+//Augmented Assignment Operator
 num3 +=5; // exactly the same as: num3 = num3 + 5;
 System.Console.WriteLine(num3);
 
@@ -85,3 +85,21 @@ System.Console.WriteLine(numberOfBooks);
 //Get Ahead study tip: Logical Operators, Conditional Statements, loops
 
 //Other topics: strings, concatentation, maybe arrays/lists
+
+bool isHappy = true;
+System.Console.WriteLine(isHappy);
+
+isHappy = !isHappy;
+System.Console.WriteLine(isHappy);
+
+System.Console.WriteLine(isHappy == true);
+
+int tomatoesInSalad = 5;
+
+System.Console.WriteLine(tomatoesInSalad == 5);
+
+tomatoesInSalad = tomatoesInSalad - 2;
+
+System.Console.WriteLine(tomatoesInSalad == 5);
+
+System.Console.WriteLine(tomatoesInSalad);
