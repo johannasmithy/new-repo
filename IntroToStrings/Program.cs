@@ -15,7 +15,7 @@ System.Console.WriteLine(word.Length);
 System.Console.WriteLine(word.ToUpper()); //change to upper case
 System.Console.WriteLine(word.ToLower());
 
-//() parenthasis, [], brackets, {} soft brackets
+//() parenthesis, [], brackets, {} soft brackets
 
 word = "Hello, World!";
 //WriteLine(word); //Argument
