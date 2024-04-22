@@ -1,6 +1,4 @@
 ﻿System.Console.WriteLine("Let's play a guessing game! Enter a number between 1 and 100: ");
-//Random rand = new(int)
-//int value = rand.Next(min, max-1)
 int guessingGameNumber = 0;
 Random random = new Random();
 int randomNumber = random.Next(1, 100);
