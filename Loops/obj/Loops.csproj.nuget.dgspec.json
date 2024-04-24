@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj": {}
+    "c:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj": {}
   },
   "projects": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj": {
+    "c:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj",
+        "projectUniqueName": "c:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj",
         "projectName": "Loops",
-        "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj",
+        "projectPath": "c:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\Loops.csproj",
         "packagesPath": "C:\\Users\\U88AFG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\obj\\",
+        "outputPath": "c:\\Users\\U88AFG\\Revature\\new-repo\\Loops\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U88AFG\\AppData\\Roaming\\NuGet\\NuGet.Config",
