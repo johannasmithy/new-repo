@@ -1,0 +1,14 @@
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\bin\Debug\net8.0\PracticeMethods.exe
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\bin\Debug\net8.0\PracticeMethods.deps.json
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\bin\Debug\net8.0\PracticeMethods.runtimeconfig.json
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\bin\Debug\net8.0\PracticeMethods.dll
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\bin\Debug\net8.0\PracticeMethods.pdb
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.AssemblyInfoInputs.cache
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.AssemblyInfo.cs
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.csproj.CoreCompileInputs.cache
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.dll
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\refint\PracticeMethods.dll
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.pdb
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\PracticeMethods.genruntimeconfig.cache
+C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\PracticeMethods\obj\Debug\net8.0\ref\PracticeMethods.dll
