@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\ClassesExample\\ClassesExample.csproj",
+      "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\ClassesExample\\ClassesExample.csproj",
       "projectName": "ClassesExample",
-      "projectPath": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\ClassesExample\\ClassesExample.csproj",
+      "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\ClassesExample\\ClassesExample.csproj",
       "packagesPath": "C:\\Users\\U88AFG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\ClassesExample\\obj\\",
+      "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\ClassesExample\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\U88AFG\\AppData\\Roaming\\NuGet\\NuGet.Config",
