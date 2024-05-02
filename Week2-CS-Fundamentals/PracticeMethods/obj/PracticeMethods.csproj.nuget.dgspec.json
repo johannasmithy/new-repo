@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj": {}
+    "c:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj": {
+    "c:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj",
+        "projectUniqueName": "c:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj",
         "projectName": "PracticeMethods",
-        "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj",
+        "projectPath": "c:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\PracticeMethods.csproj",
         "packagesPath": "C:\\Users\\U88AFG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\obj\\",
+        "outputPath": "c:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\PracticeMethods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U88AFG\\AppData\\Roaming\\NuGet\\NuGet.Config",

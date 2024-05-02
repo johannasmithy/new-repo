@@ -12,3 +12,11 @@ C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\obj\Debug\net8.0\refint\Week2-CS-
 C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.pdb
 C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.genruntimeconfig.cache
 C:\Users\U88AFG\Revature\Week2-CS-Fundamentals\obj\Debug\net8.0\ref\Week2-CS-Fundamentals.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.AssemblyInfoInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.AssemblyInfo.cs
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.sourcelink.json
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\refint\Week2-CS-Fundamentals.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\obj\Debug\net8.0\Week2-CS-Fundamentals.pdb

@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/IntroToStrings/bin/Debug/net8.0/IntroToStrings.dll",
+            "program": "${workspaceFolder}/Week2-CS-Fundamentals/bin/Debug/net8.0/Week2-CS-Fundamentals.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/IntroToStrings",
+            "cwd": "${workspaceFolder}/Week2-CS-Fundamentals",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

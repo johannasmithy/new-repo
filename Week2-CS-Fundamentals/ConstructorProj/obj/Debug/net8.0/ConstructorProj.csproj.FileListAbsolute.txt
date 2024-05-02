@@ -1,0 +1,15 @@
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.AssemblyInfoInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.AssemblyInfo.cs
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.csproj.CoreCompileInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.sourcelink.json
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\bin\Debug\net8.0\ConstructorProj.exe
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\bin\Debug\net8.0\ConstructorProj.deps.json
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\bin\Debug\net8.0\ConstructorProj.runtimeconfig.json
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\bin\Debug\net8.0\ConstructorProj.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\bin\Debug\net8.0\ConstructorProj.pdb
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\refint\ConstructorProj.dll
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.pdb
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ConstructorProj.genruntimeconfig.cache
+C:\Users\U88AFG\Revature\new-repo\Week2-CS-Fundamentals\ConstructorProj\obj\Debug\net8.0\ref\ConstructorProj.dll

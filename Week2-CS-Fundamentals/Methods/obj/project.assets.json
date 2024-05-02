@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\Methods\\Methods.csproj",
+      "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\Methods\\Methods.csproj",
       "projectName": "Methods",
-      "projectPath": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\Methods\\Methods.csproj",
+      "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\Methods\\Methods.csproj",
       "packagesPath": "C:\\Users\\U88AFG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U88AFG\\Revature\\Week2-CS-Fundamentals\\Methods\\obj\\",
+      "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week2-CS-Fundamentals\\Methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\U88AFG\\AppData\\Roaming\\NuGet\\NuGet.Config",
