@@ -1,0 +1,15 @@
+C:\Users\U88AFG\Revature\new-repo\Grocery\bin\Debug\net8.0\Grocery.exe
+C:\Users\U88AFG\Revature\new-repo\Grocery\bin\Debug\net8.0\Grocery.deps.json
+C:\Users\U88AFG\Revature\new-repo\Grocery\bin\Debug\net8.0\Grocery.runtimeconfig.json
+C:\Users\U88AFG\Revature\new-repo\Grocery\bin\Debug\net8.0\Grocery.dll
+C:\Users\U88AFG\Revature\new-repo\Grocery\bin\Debug\net8.0\Grocery.pdb
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.AssemblyInfoInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.AssemblyInfo.cs
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.csproj.CoreCompileInputs.cache
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.sourcelink.json
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.dll
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\refint\Grocery.dll
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.pdb
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\Grocery.genruntimeconfig.cache
+C:\Users\U88AFG\Revature\new-repo\Grocery\obj\Debug\net8.0\ref\Grocery.dll

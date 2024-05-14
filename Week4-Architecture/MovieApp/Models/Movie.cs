@@ -1,3 +1,6 @@
+using System.Data.Common;
+using System.Reflection;
+
 class Movie
 {
     public int Id { get; set; }
@@ -18,5 +21,10 @@ class Movie
         Price = price;
         Available = available;
         ReturnDate = returnDate;
+    }
+
+    public override string ToString()
+    {
+        return "{'id': " + Id + ",'title': " + Title + ",price: " + Price + ",available: " + Available + ", returnDate: " + ReturnDate + "}";
     }
 }
