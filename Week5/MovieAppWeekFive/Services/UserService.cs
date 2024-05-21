@@ -18,7 +18,7 @@ class UserService
 
         //let's not let them register if the username is already taken
         //get all users
-        List<User> allUsers = ur.GetAllUser();
+        List<User> allUsers = ur.GetAllUser() ?? [];
         {
             //Check if our new username matches any of the usernames on all those users.
             foreach(User user in allUsers)

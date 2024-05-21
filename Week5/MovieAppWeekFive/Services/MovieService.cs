@@ -16,7 +16,11 @@ class MovieService
     */
     
 
-    MovieRepo mr = new();
+    MovieRepo mr;
+    public MovieService(MovieRepo mr)
+    {
+        this.mr = mr;
+    }
     public Movie? Checkin(Movie m)
     {
         if (m.Available || m.ReturnDate == 0)

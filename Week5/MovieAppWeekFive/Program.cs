@@ -3,10 +3,10 @@
 
 class Program
 {
-    static MovieService ms = new();
+    static MovieService ms;
     static UserService us;
-    static User? currentuser = new();
-    
+    static User? currentUser = null;
+
     static void Main(string[] args)
     {
         //Strings with an @ in front will provide you additional flexibility when creating string path
@@ -16,15 +16,123 @@ class Program
         System.Console.WriteLine(connectionString); // definitely remove later
         UserRepo ur = new(connectionString);
         us = new(ur);
+
+        MovieRepo mr = new(); // we'll need to add conn string to this later
+        ms = new(mr);
+
+        //testing adding to our db
+        // User newUser = new(0, "someone", "pass4", "user");
+        // System.Console.WriteLine("Added User" + ur.AddUser(newUser));
         //Going to start off with the call to Main Menu 
         // MainMenu();
+        // InitMenu();
 
-        
+        // List<User> allUsers = ur.GetAllUser() ?? [];
+        // if(allUsers != null)
+        // {
+        //     //Print all users
+        //     foreach(User user in allUsers)
+        //     {
+        //         System.Console.WriteLine(user);
+        //     }
+        // }
+        // else
+        // {
+        //     //Get all Users failed
+        //     System.Console.WriteLine("Get all failed");
+        // }
+
+        //testing Get 1, Update, Delete
+        User u = ur.GetUser(2) ?? new();
+        System.Console.WriteLine("Get User" + u);
+        u.Password += "000";
+        System.Console.WriteLine("Updated User: " + ur.UpdateUser(u));
+        System.Console.WriteLine("Deleted User: " + ur.DeleteUser(u));
 
 
     }
+    private static void InitMenu()
+    {
+        System.Console.WriteLine("Welcome to the Movie App!");
+        bool keepGoing = true;
+        while (keepGoing)
+        {
+            System.Console.WriteLine("Please Pick an Option Down Below:");
+            System.Console.WriteLine("=================================");
+            System.Console.WriteLine("[1] Login");
+            System.Console.WriteLine("[2] Register");
+            System.Console.WriteLine("[0] Quit");
+            System.Console.WriteLine("=================================");
 
-     private static void MainMenu()
+            int input = int.Parse(Console.ReadLine() ?? "0");
+            //Same Validation method copied over
+            input = ValidateCmd(input, 2);
+
+            keepGoing = DecideInitOption(input); //Slightly different method.
+        }
+    }
+    private static bool DecideInitOption(int input)
+    {
+        switch (input)
+        {
+            case 1:
+                Login(); break;
+            case 2:
+                Register(); break;
+            case 0:
+            default:
+                //If option 0 or anything else -> set keepGoing to false.
+                return false;
+        }
+
+        return true;
+    }
+    private static void Register()
+    {
+        System.Console.WriteLine("Please Enter a New Username: ");
+        string username = Console.ReadLine() ?? "";
+        //Could Add some validation here to loop if Username is empty or taken.
+
+        System.Console.WriteLine("Please Enter a New Password: ");
+        string password = Console.ReadLine() ?? "";
+        //Could Add some validation here to loop if Password is empty or not long enough.
+
+        //Lets not set an ID and assume their Role to be 'user'
+        //My Register method chose a different tactic of passing in the whole User
+        User? newUser = new(0, username, password, "user");
+        newUser = us.RegisterUser(newUser); //should return the new User.
+        if (newUser != null)
+        {
+            System.Console.WriteLine("New User Registered!");
+        }
+        else
+        {
+            System.Console.WriteLine("Registration Failed! Please Try Again!");
+        }
+    }
+    private static void Login()
+    {
+        while (currentUser == null)
+        {
+            System.Console.WriteLine("Please Enter Your Username: ");
+            string username = Console.ReadLine() ?? "";
+
+            System.Console.WriteLine("Please Enter Your Password: ");
+            string password = Console.ReadLine() ?? "";
+
+            //Setting the currentUser variable signifies Logging in. If Login() fails it will remain null.
+            currentUser = us.LoginUser(username, password);
+            if (currentUser == null)
+                System.Console.WriteLine("Login Failed. Please Try Again.");
+        }
+
+        //Now that they are logged in -> send them to Main Menu.
+        MainMenu();
+        //When this MainMenu ends, so does this calling of Login() which means go
+        //back to InitMenu().
+    }
+
+    private static void MainMenu()
     {
         //Similar menu different options.
         System.Console.WriteLine("Welcome to the Movie App!");
@@ -47,6 +155,7 @@ class Program
             //Extracted to method - uses switch case to determine what to do next.
             keepGoing = DecideNextOption(input);
         }
+        currentUser = null;
     }
 
     private static bool DecideNextOption(int input)
@@ -180,7 +289,7 @@ class Program
         return cmd;
     }
 
-  
+
 
 
 }
