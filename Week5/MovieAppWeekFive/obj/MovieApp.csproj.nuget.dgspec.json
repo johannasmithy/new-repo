@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week4-Architecture\\MovieApp\\MovieApp.csproj": {}
+    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week5\\MovieAppWeekFive\\MovieApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week4-Architecture\\MovieApp\\MovieApp.csproj": {
+    "C:\\Users\\U88AFG\\Revature\\new-repo\\Week5\\MovieAppWeekFive\\MovieApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week4-Architecture\\MovieApp\\MovieApp.csproj",
+        "projectUniqueName": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week5\\MovieAppWeekFive\\MovieApp.csproj",
         "projectName": "MovieApp",
-        "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week4-Architecture\\MovieApp\\MovieApp.csproj",
+        "projectPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week5\\MovieAppWeekFive\\MovieApp.csproj",
         "packagesPath": "C:\\Users\\U88AFG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week4-Architecture\\MovieApp\\obj\\",
+        "outputPath": "C:\\Users\\U88AFG\\Revature\\new-repo\\Week5\\MovieAppWeekFive\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U88AFG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Net.Code.ADONet": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,12 +4,20 @@
 class Program
 {
     static MovieService ms = new();
+    static UserService us;
     static User? currentuser = new();
     
     static void Main(string[] args)
     {
+        //Strings with an @ in front will provide you additional flexibility when creating string path
+
+        string path = @"C:\Users\U88AFG\Revature\Movie-app-db.txt";
+        string connectionString = File.ReadAllText(path);
+        System.Console.WriteLine(connectionString); // definitely remove later
+        UserRepo ur = new(connectionString);
+        us = new(ur);
         //Going to start off with the call to Main Menu 
-        MainMenu();
+        // MainMenu();
 
         
 

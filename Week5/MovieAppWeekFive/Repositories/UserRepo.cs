@@ -1,68 +1,74 @@
+using System.Data.SqlClient;
 class UserRepo
 {
-    UserStorage userStorage = new();
-
-    //add, get-one, get-all, update, and delete
+    private readonly string _connectionString;
+    
+    //Dependency injection -> Constructor Injection
+    public UserRepo(string connString)
+    {
+        _connectionString = connString;
+    }
 
     public User AddUser(User u)
     {
-        u.Id = userStorage.idCounter++; //incrementing the value afterwards to prep it for the next time it's needed. 
+        //Set up DB Connection
+        using SqlConnection connection = new(_connectionString);
+        connection.Open();
 
-        //Add the movie into our collections. 
-        userStorage.users.Add(u.Id, u);
-        return u;
+        //Create the SQL String
+        string sql = "INSERT INTO [User] OUTPUT inserted.* VALUES (@Username, @Password, @Role)";
+        
+        //Set up SqlCommand Object and use its methods to modify the Parameterized Values
+        using SqlCommand cmd = new(sql, connection);
+        cmd.Parameters.AddWithValue("@Username", u.Username);
+        cmd.Parameters.AddWithValue("@Password", u.Password);
+        cmd.Parameters.AddWithValue("@Role", u.Role);
+        
+        //Execute the Query
+        //cmd.ExecuteNonQuery(); //This executes a non-select SQL statement (inserts, updates, deletes)
+
+        using SqlDataReader reader = cmd.ExecuteReader();
+       
+        //Extract the Results
+        if(reader.Read())
+        {
+            //If Read() found data, then extract it.
+            User newUser = new();
+            newUser.Id = (int) reader["Id"];
+            newUser.Username = (string)reader["Username"];
+            newUser.Password = (string)reader["Password"];
+            newUser.Role = (string)reader["Role"];
+            
+            return newUser;
+        }
+        else
+        {
+            //Else Read() found nothing. Insert failed
+            return null;
+        }
+
+        
     }
 
     public User GetUser(int id)
     
     {
-        if (userStorage.users.ContainsKey(id))
-        {
-            User selectedUser = userStorage.users[id];
-            return selectedUser;
-        }
-        else 
-        {
-            System.Console.WriteLine("Invalid User ID - Please Try Again");
-            return null;
-        }
+        return null;
+        
     }
     public List<User> GetAllUser()
     {
-        return userStorage.users.Values.ToList();
+        return null;
     }
 
     public User? UpdateUser(User updatedUser)
     {
-        //Assuming that the ID is consistent with an ID that exists, then we just have to update the value (aka Movie Object for our scenario) for said ID (key)
-        try
-        {
 
-            userStorage.users[updatedUser.Id] = updatedUser;
-            return updatedUser;
-        }
-        catch (Exception e)//can name the exception or, since we aren't printing it (or doing anything with it), we can remove the exception name.
-        {
-            System.Console.WriteLine("Invalid User ID - Please Try Again");
-            return null;
-        }
+        return null;
+        
     }
     public User? DeleteUser(User u)
     {
-        
-
-        //If we have the ID -> then simply Remove it from storage
-        bool didRemove = userStorage.users.Remove(u.Id);
-        if (didRemove)
-        {
-            //now we will return the movie that got deleted
-            return u;
-        }
-        else
-        {
-        System.Console.WriteLine("Invalid User ID - Please Try Again");
         return null;
-        }
-
-    } 
+    }
 }
